@@ -1,0 +1,9 @@
+.indices/
+genai3/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.env
+.vscode/
+*.db
+database/
