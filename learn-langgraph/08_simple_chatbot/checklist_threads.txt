@@ -1,0 +1,17 @@
+1. add sidebar with title + new chat button + title of 'past conversations'
+2. generate a dynamic thread ID, and add it to session
+3. display the thread ID in sidebar
+
+4. clicking 'new chat',
+    a. generate a new thread ID
+    b. save it in session
+    c. reset message history
+
+5. create a list to store all thread IDs
+6. load all thread IDs in sidebar
+7. convert sidebar text to clickable buttons
+
+8. load that particular thread when that button clicked
+
+#############
+1. try to save conversation topic as well to the DB, so that when we load again, it is not lost! [DONE]
