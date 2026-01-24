@@ -7,3 +7,5 @@ __pycache__/
 .vscode/
 *.db
 database/
+learn-langgraph/10_chatbot_w_observability/backend_test.py
+learn-langgraph/10_chatbot_w_observability/frontend_test.py
