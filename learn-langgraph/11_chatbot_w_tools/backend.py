@@ -115,7 +115,7 @@ ddg_search_tool = DuckDuckGoSearchResults(
 )
 
 ## *************************************** LLM Setup ********************************************************
-LLM = ChatGroq(model=os.getenv("MODEL_NAME", ""), temperature=0)
+LLM = ChatGroq(model=os.getenv("MODEL_NAME", ""), temperature=0.1)
 # list of tools
 TOOLS = [calculator, single_num_ops, get_stock_price, ddg_search_tool]
 # make LLM tool aware

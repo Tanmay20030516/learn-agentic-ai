@@ -112,12 +112,12 @@ with st.sidebar:
 
         title = st.session_state["chat_titles"].get(thread_id, thread_id[:8])
 
-        col_title, col_menu = st.columns([0.85, 0.15], gap="small")
+        col_title, col_menu = st.columns([0.85, 0.15], gap="small", vertical_alignment="center")
 
         # ---- RIGHT: Menu button ----
         with col_menu:
             click = st.button(
-                ":material/more_horiz:",
+                "⌥",
                 key=f"menu_{thread_id}",
                 type="secondary",
             )
