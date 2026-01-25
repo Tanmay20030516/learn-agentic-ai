@@ -217,4 +217,4 @@ CHECKPOINTER = SqliteSaver(conn=CONN)
 _create_titles_table()
 chatbot = create_chatbot()
 title_generator = create_title_generator()
-initial_state = {"messages": [SystemMessage(content="You are a helpful assistant. ONLY answer the question asked and end your response with a GenZ hashtag. DO NOT REPLY ANYTHING ELSE.")]}
+initial_state = {"messages": [SystemMessage(content="You are a helpful assistant. End your response with a GenZ hashtag.")]}
