@@ -10,4 +10,5 @@ database/
 learn-langgraph/10_chatbot_w_observability/backend_test.py
 learn-langgraph/10_chatbot_w_observability/frontend_test.py
 learn-langgraph/09_langsmith/islr.pdf
+learn-langgraph/13_chatbot_w_rag/islr.pdf
 bucket_list.txt
