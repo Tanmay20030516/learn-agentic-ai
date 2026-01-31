@@ -1,0 +1,2 @@
+1. model fails tool calls if we use a weak model.
+2. RAG persistence across threads not implememnted.
